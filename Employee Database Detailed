@@ -76,5 +76,5 @@ select * from employee order by Salary asc;
 select * from employee order by Salary desc;
 
 /* Query 5 */
-select * from employee where ((experience > 10) && (Rating = Commendable));
-select * from employee where (experience > 5); 
+select * from employee where (experience > 10) and (rating = "Commendable");
+select * from employee where (experience > 5) and (rating = "Outstanding"); 
